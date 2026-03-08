@@ -41,8 +41,8 @@
                 </div>
 
                 <div class="inputs">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Phone">
+                    <input type="email" placeholder="Email"/>
+                    <input type="tel" placeholder="Phone" inputmode="tel" oninput="this.value=this.value.replace(/[^0-9]/g,'')"/>
                 </div>
 
                 <h3>What type of investor are you?</h3>
