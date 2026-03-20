@@ -165,12 +165,21 @@ input:focus {
     /* flex-wrap: wrap; */
 }
 
+.radio-group input {
+    cursor: pointer;
+}
+
 .radio-group label {
     font-size: 15px;
+    cursor: pointer;
 }
 
 .checkbox label {
     color: #7b8a92;
+}
+
+.checkbox a {
+    color: rgb(95, 178, 206);
 }
 
 .create-account {
