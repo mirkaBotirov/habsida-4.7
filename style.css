@@ -77,6 +77,7 @@ body {
     color: white;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
 .btn img {
@@ -184,13 +185,14 @@ input:focus {
 
 .create-account {
     margin-top: 25px;
-    width: 100%;
+    width: 285px;
     padding: 14px;
     background: #3698FB;
     color: white;
     border: none;
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 5px;
 }
 
 .create-account:hover {
